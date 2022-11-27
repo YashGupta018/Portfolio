@@ -89,13 +89,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        title="Image Hosting Site (MERN Stack)"
+        description="Design and Developed An Image Hosting Site, A basic CRUD based Web App"
+        buttonText="View Project"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Image Hosting Site',
           textures: [
             {
               srcSet: [sprTexture, sprTextureLarge],
@@ -110,9 +110,9 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
+        title="E-Commerce Website (MERN Stack)"
+        description="Design and Developed a E-Commerce Site which is Scalable and Future Proof "
+        buttonText="View Project"
         buttonLink="https://gamestack.hamishw.com"
         model={{
           type: 'phone',
@@ -134,9 +134,9 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        title="Diceee (Swift iOS)"
+        description="It was basically an App to Roll the Dice in Random Order"
+        buttonText="View Project"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
