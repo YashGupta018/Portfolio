@@ -1,15 +1,15 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import gamestackTexture2Large from 'assets/firstpage.jpg';
+import gamestackTexture2Placeholder from 'assets/firstpage.jpg';
+import gamestackTexture2 from 'assets/firstpage.jpg';
+import gamestackTextureLarge from 'assets/launchpage.jpg';
+import gamestackTexturePlaceholder from 'assets/launchpage.jpg';
+import gamestackTexture from 'assets/launchpage.jpg';
+import sliceTextureLarge from 'assets/ecommersfirstpage.jpg';
+import sliceTexturePlaceholder from 'assets/ecommersfirstpage.jpg';
+import sliceTexture from 'assets/ecommersfirstpage.jpg';
+import sprTextureLarge from 'assets/imagehosting.png';
+import sprTexturePlaceholder from 'assets/imagehosting.png';
+import sprTexture from 'assets/imagehosting.png';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -18,13 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = [
-  'Web Developer',
-  'Designer',
-  'Ui/Ux Developer',
-  'Programmer',
-  'Web3 Enthusiast',
-];
+const disciplines = ['AppDeveloper', 'Designer', 'WebDeveloper', 'Programmer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -74,8 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Software Engineer + Web Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+        title="FullStack + AppDeveloper"
+        description="Design portfolio of Yash Gupta — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
       <Intro
@@ -110,8 +104,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="E-Commerce Website (MERN Stack)"
-        description="Design and Developed a E-Commerce Site which is Scalable and Future Proof "
+        title="Diceee (Swift iOS)"
+        description="It was basically an App to Roll the Dice in Random Order"
         buttonText="View Project"
         buttonLink="https://gamestack.hamishw.com"
         model={{
@@ -134,8 +128,8 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Diceee (Swift iOS)"
-        description="It was basically an App to Roll the Dice in Random Order"
+        title="E-Commerce Website (MERN Stack)"
+        description="Design and Developed a E-Commerce Site which is Scalable and Future Proof"
         buttonText="View Project"
         buttonLink="/projects/slice"
         model={{
