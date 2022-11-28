@@ -33,7 +33,7 @@ const ArticlesPost = ({
   useEffect(() => {
     setDateTime(formatDate(date));
   }, [date, dateTime]);
-  
+
   const handleMouseEnter = () => {
     setHovered(true);
   };
@@ -95,7 +95,7 @@ const ArticlesPost = ({
       </RouterLink>
       {featured && (
         <Text aria-hidden className={styles.postTag} size="s">
-          477
+          007
         </Text>
       )}
     </article>
@@ -149,7 +149,7 @@ export const Articles = ({ posts, featured }) => {
   const postsHeader = (
     <header className={styles.header}>
       <Heading className={styles.heading} level={5} as="h1">
-        <DecoderText text="Latest articles" />
+        <DecoderText text="My Achievements" />
       </Heading>
       <Barcode />
     </header>
@@ -173,10 +173,7 @@ export const Articles = ({ posts, featured }) => {
 
   return (
     <article className={styles.articles}>
-      <Meta
-        title="Articles"
-        description="A collection of technical design and development articles. May contain incoherent ramblings."
-      />
+      <Meta title="Achievements" description="" />
       <Section className={styles.content}>
         {!isSingleColumn && (
           <div className={styles.grid}>
