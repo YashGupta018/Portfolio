@@ -1,4 +1,3 @@
-import projectKatakana from 'assets/katakana-project.svg?url';
 import { Button } from 'components/Button';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
@@ -49,9 +48,7 @@ export const ProjectSummary = ({
       style={cssProps({ opacity: svgOpacity })}
       className={styles.svg}
       data-device={device}
-    >
-      <use href={`${projectKatakana}#katakana-project`} />
-    </svg>
+    ></svg>
   );
 
   const renderDetails = visible => (

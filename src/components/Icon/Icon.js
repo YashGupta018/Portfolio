@@ -15,7 +15,10 @@ import Pause from './svg/pause.svg';
 import Play from './svg/play.svg';
 import Send from './svg/send.svg';
 import Twitter from './svg/twitter.svg';
-//import LinkedIn from './svg/linkedin.svg';
+import LinkedIn from './svg/linkedin.svg';
+import Leetcode from './svg/leetcode.svg';
+import CodeChef from './svg/codechef.svg';
+import Instagram from './svg/Instagram.svg';
 
 export const icons = {
   arrowLeft: ArrowLeft,
@@ -33,6 +36,10 @@ export const icons = {
   play: Play,
   send: Send,
   twitter: Twitter,
+  linkedin: LinkedIn,
+  leetcode: Leetcode,
+  codechef: CodeChef,
+  instagram: Instagram,
 };
 
 export const Icon = ({ icon, className, ...rest }) => {

@@ -16,18 +16,28 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
+    label: 'LinkedIn',
     url: 'https://www.linkedin.com/in/yash-gupta-71b011189/',
-    icon: 'twitter',
-  },
-  {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
+    icon: 'linkedin',
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/YashGupta018',
     icon: 'github',
+  },
+  {
+    label: 'Instagram',
+    url: 'http://instagram.com/_.imyash._/',
+    icon: 'instagram',
+  },
+  {
+    label: 'Leetcode',
+    url: 'https://leetcode.com/YashGupta001/',
+    icon: 'leetcode',
+  },
+  {
+    label: 'CodeChef',
+    url: 'https://www.codechef.com/users/darkshadow18',
+    icon: 'codechef',
   },
 ];
