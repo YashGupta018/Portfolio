@@ -26,11 +26,6 @@ export const socialLinks = [
     icon: 'github',
   },
   {
-    label: 'Instagram',
-    url: 'http://instagram.com/_.imyash._/',
-    icon: 'instagram',
-  },
-  {
     label: 'Leetcode',
     url: 'https://leetcode.com/YashGupta001/',
     icon: 'leetcode',

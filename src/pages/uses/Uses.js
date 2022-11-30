@@ -1,12 +1,9 @@
-import usesBackgroundPlaceholder from 'assets/uses-background-placeholder.jpg';
-import usesBackground from 'assets/uses-background.mp4';
 import { Footer } from 'components/Footer';
 import { Link } from 'components/Link';
 import { List, ListItem } from 'components/List';
 import { Meta } from 'components/Meta';
 import { Table, TableBody, TableCell, TableHeadCell, TableRow } from 'components/Table';
 import {
-  ProjectBackground,
   ProjectContainer,
   ProjectHeader,
   ProjectSection,
@@ -22,42 +19,41 @@ export const Uses = () => {
   return (
     <Fragment>
       <Meta
-        title="Uses"
+        title="Skills & Technologies"
         description="A list of hardware and software I use to do my thing"
       />
       <ProjectContainer className={styles.uses}>
-        <ProjectBackground
-          src={{ src: usesBackground }}
-          placeholder={usesBackgroundPlaceholder}
-          opacity={0.7}
-        />
         <ProjectHeader
-          title="Uses"
-          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to design and code things. And yeah, that is a Johnny Mnemonic GIF in the background."
+          title="Skills & Technologies"
+          description="A list of Tools, Apps & Hardware I use on a Daily Basis to Code & Develop My Apps & Websites. I've Experience in various Technologies from Front-End To Back-End, I've Started My Journey from Basic Problem Solving Questions & Designing Basic App Designs to Now as a Full-Stack Developer"
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Design</ProjectSectionHeading>
+              <ProjectSectionHeading>DSA Problems & Designing Apps</ProjectSectionHeading>
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    <Link href="https://www.figma.com">Figma</Link> is my primary tool for
-                    UI design these days. Made the switch from Sketch in 2020 and haven’t
-                    looked back. I’ve also created{' '}
-                    <Link href="https://www.figma.com/@hamish">a few plugins</Link> that
-                    you can install.
+                    <Link href="https://code.visualstudio.com">VS Code</Link> is my
+                    primary tool I used for Solving DSA Problems on a Regular Basis. I
+                    Started Learning Programming Languages, Started Learning the concepts
+                    of Data Structures & Algorithms.
                   </ListItem>
                   <ListItem>
-                    Any motion graphics I create are created in Adobe After Effects. So
-                    far I haven’t found a non-Adobe product that’s as good. If anyone has
-                    suggestions please <Link href="/contact">message me</Link>.
+                    At the start, On my Leisure Time, Just Because I Like Designing and It
+                    Freshen-up My Mind, I use to Design Android Apps for using{' '}
+                    <Link href="https://www.adobe.com/in/products/xd.html">AdobeXD</Link>{' '}
+                    & <Link href="https://www.figma.com">Figma</Link>
                   </ListItem>
                   <ListItem>
-                    For any 3D models I use{' '}
-                    <Link href="https://www.blender.org/">Blender</Link>. Since 2.8 it’s
-                    become way simpler to use and in a lot of ways better than expensive
-                    paid tools like 3DS Max or Maya.
+                    Recently, I Started Developing Apps for iOS using Swift using{' '}
+                    <Link href="https://developer.apple.com/xcode/">Xcode</Link> & I've a
+                    Basic Knowledge of Android Studio, I've made few Apps in{' '}
+                    <Link href="https://developer.android.com/studio?gclid=Cj0KCQiAm5ycBhCXARIsAPldzoVDyXkwxdTI6wledYwAKGbcBsEseKRyHEXlvBZ00FckQ7T-c1vBe6oaAmVrEALw_wcB&gclsrc=aw.ds">
+                      Android Studio
+                    </Link>
+                    . Although Till now I haven't made any App using MVVM Model
+                    Architechture.
                   </ListItem>
                 </List>
               </ProjectSectionText>
@@ -67,48 +63,103 @@ export const Uses = () => {
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Development</ProjectSectionHeading>
+              <ProjectSectionHeading>Skills</ProjectSectionHeading>
               <ProjectSectionText as="div">
-                <List>
-                  <ListItem>
-                    I use{' '}
-                    <Link href="https://code.visualstudio.com/">Visual Studio Code</Link>{' '}
-                    as my text editor, with the Atom One Dark theme and Operator Mono as
-                    my typeface of choice.
-                  </ListItem>
-                  <ListItem>
-                    Firefox is my main browser for both development and general use.
-                  </ListItem>
-                  <ListItem>
-                    <Link href="https://reactjs.org/">React</Link> is my front end
-                    Javascript library of choice. The component-centric mental model is
-                    the first thing that truly made sense to me as a designer.
-                  </ListItem>
-                  <ListItem>
-                    For 3D effects and image shaders I use{' '}
-                    <Link href="https://threejs.org/">three.js</Link>. It has a bit of a
-                    learning curve but you can do some really powerful stuff with it.
-                  </ListItem>
-                  <ListItem>
-                    For CSS I’ve used a myriad pre-processors and css-in-js solutions like
-                    styled-components, but these days I’m using vanilla CSS with{' '}
-                    <Link href="https://postcss.org/">PostCSS</Link> to get upcoming CSS
-                    features today.
-                  </ListItem>
-                  <ListItem>
-                    For Javascript animations I use{' '}
-                    <Link href="https://www.framer.com/motion/">Framer Motion</Link>, it’s
-                    a great way to add spring animations to React and three.js.
-                  </ListItem>
-                  <ListItem>
-                    For building and testing UI components in isolation I use{' '}
-                    <Link href="https://storybook.js.org/">Storybook</Link>. Check out the{' '}
-                    <Link href="https://storybook.hamishw.com">
-                      storybook for this website
-                    </Link>
-                    .
-                  </ListItem>
-                </List>
+                <div
+                  style={{
+                    display: 'flex',
+                    gap: '25px',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    paddingRight: '250px',
+                  }}
+                >
+                  <a href="https://www.w3schools.com/cpp/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                      alt="C++"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://www.java.com/en/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/java/java-original.svg"
+                      alt="Java"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/logo-javascript.svg"
+                      alt="JavaScript"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://developer.apple.com/swift/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/swift-icon.svg"
+                      alt="Swift"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://www.mongodb.com/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/mongodb-icon.svg"
+                      alt="MongoDB"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://expressjs.com/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/expressjs-both-icon.svg"
+                      alt="ExpressJS"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://reactjs.org/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/react/react-original.svg"
+                      alt="ReactJS"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://nodejs.org/" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/nodejs/nodejs-original.svg"
+                      alt="NodeJS"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a href="https://developer.android.com" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/android-logomark.svg"
+                      alt="Android"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                  <a></a>
+                  <a href="https://www.python.org" target="_blank">
+                    <img
+                      src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/python-seeklogo.com.svg"
+                      alt="Python"
+                      width="40"
+                      height="40"
+                    />
+                  </a>
+                </div>
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -121,23 +172,23 @@ export const Uses = () => {
                 <TableBody>
                   <TableRow>
                     <TableHeadCell>CPU</TableHeadCell>
-                    <TableCell>AMD Ryzen 5800x</TableCell>
+                    <TableCell>Intel Core i5</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>GPU</TableHeadCell>
-                    <TableCell>MSI Gaming X Trio RTX 3080</TableCell>
+                    <TableCell>Intel Iris Plus Graphics 645 1536 MB</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Memory</TableHeadCell>
-                    <TableCell>GSkill 32GB DDR4 3600mhz CAS 18</TableCell>
+                    <TableCell>SK Hynix 8GB DDR3 2133 MHz</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Motherboard</TableHeadCell>
-                    <TableCell>MSI B550 Tomahawk</TableCell>
+                    <TableCell>Apple Inc (T2 Security Chip)</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Monitor</TableHeadCell>
-                    <TableCell>1440p IPS 144hz LG 27GL850</TableCell>
+                    <TableCell>2560x1600 Retina (24-Bit Colour)</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Keyboard</TableHeadCell>
@@ -145,19 +196,19 @@ export const Uses = () => {
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Mouse</TableHeadCell>
-                    <TableCell>Logitech G403</TableCell>
+                    <TableCell>Logitech G213 Prodigy</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Laptop</TableHeadCell>
-                    <TableCell>Macbook Pro 14″ (2022 M1 Max)</TableCell>
+                    <TableCell>Macbook Pro 13″ (2019 Intel)</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Headphones</TableHeadCell>
-                    <TableCell>Audio Technica ATH-M50x/Apple Airpods</TableCell>
+                    <TableCell>Sennheiser B405 SE</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Microphone</TableHeadCell>
-                    <TableCell>Blue Yeti</TableCell>
+                    <TableCell>Sennheiser B405 SE</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>

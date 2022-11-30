@@ -28,8 +28,8 @@ const ProfileText = ({ visible, titleId }) => (
       I spent my leisure time Working as a Freelancer & Utilize that time to built My Own
       Projects. Right now, I'm also trying to Improve my Skills as an iOS Developer. If
       you’re interested in the tools and software I use check out my{' '}
-      <Link href="/uses">uses page</Link>. I’m always down for hearing about new projects,
-      so feel free to drop me a line.
+      <Link href="/uses">Skills & Technologies</Link>. I’m always interested in hearing
+      about new projects, so feel free to ping me.
     </Text>
   </Fragment>
 );
