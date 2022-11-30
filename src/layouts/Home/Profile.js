@@ -1,5 +1,4 @@
 import profileImgLarge from 'assets/profile.png';
-import profileImgPlaceholder from 'assets/profile-placeholder.jpg';
 import profileImg from 'assets/profile.png';
 import { Button } from 'components/Button';
 import { DecoderText } from 'components/DecoderText';
@@ -80,7 +79,6 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 <Image
                   reveal
                   delay={100}
-                  placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
                   alt="Me on a Trip to Ooty with My Friends"
