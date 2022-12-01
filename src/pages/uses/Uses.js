@@ -47,12 +47,12 @@ export const Uses = () => {
                   </ListItem>
                   <ListItem>
                     Recently, I Started Developing Apps for iOS using Swift using{' '}
-                    <Link href="https://developer.apple.com/xcode/">Xcode</Link> & I've a
-                    Basic Knowledge of Android Studio, I've made few Apps in{' '}
+                    <Link href="https://developer.apple.com/xcode/">Xcode</Link> & I have
+                    a Basic Knowledge of Android Studio, I have made few Apps in{' '}
                     <Link href="https://developer.android.com/studio?gclid=Cj0KCQiAm5ycBhCXARIsAPldzoVDyXkwxdTI6wledYwAKGbcBsEseKRyHEXlvBZ00FckQ7T-c1vBe6oaAmVrEALw_wcB&gclsrc=aw.ds">
                       Android Studio
                     </Link>
-                    . Although Till now I haven't made any App using MVVM Model
+                    . Although Till now I havent made any App using MVVM Model
                     Architechture.
                   </ListItem>
                 </List>
@@ -75,7 +75,11 @@ export const Uses = () => {
                     paddingRight: '250px',
                   }}
                 >
-                  <a href="https://www.w3schools.com/cpp/" target="_blank">
+                  <a
+                    href="https://www.w3schools.com/cpp/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
                       alt="C++"
@@ -83,7 +87,7 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://www.java.com/en/" target="_blank">
+                  <a href="https://www.java.com/en/" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/java/java-original.svg"
                       alt="Java"
@@ -94,6 +98,7 @@ export const Uses = () => {
                   <a
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/logo-javascript.svg"
@@ -102,7 +107,11 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://developer.apple.com/swift/" target="_blank">
+                  <a
+                    href="https://developer.apple.com/swift/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/swift-icon.svg"
                       alt="Swift"
@@ -110,7 +119,7 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://www.mongodb.com/" target="_blank">
+                  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/mongodb-icon.svg"
                       alt="MongoDB"
@@ -118,7 +127,7 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://expressjs.com/" target="_blank">
+                  <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/expressjs-both-icon.svg"
                       alt="ExpressJS"
@@ -126,7 +135,7 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://reactjs.org/" target="_blank">
+                  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/react/react-original.svg"
                       alt="ReactJS"
@@ -134,7 +143,7 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://nodejs.org/" target="_blank">
+                  <a href="https://nodejs.org/" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/2809b567852a4648062a2d3e7c1c531367458c0b/icons/nodejs/nodejs-original.svg"
                       alt="NodeJS"
@@ -142,7 +151,11 @@ export const Uses = () => {
                       height="40"
                     />
                   </a>
-                  <a href="https://developer.android.com" target="_blank">
+                  <a
+                    href="https://developer.android.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/android-logomark.svg"
                       alt="Android"
@@ -151,7 +164,7 @@ export const Uses = () => {
                     />
                   </a>
                   <a></a>
-                  <a href="https://www.python.org" target="_blank">
+                  <a href="https://www.python.org" target="_blank" rel="noreferrer">
                     <img
                       src="https://raw.githubusercontent.com/YashGupta018/GitHub/main/python-seeklogo.com.svg"
                       alt="Python"
