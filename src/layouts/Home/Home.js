@@ -86,7 +86,7 @@ export const Home = () => {
         title="Image Hosting Site (MERN Stack)"
         description="Design and Developed An Image Hosting Site, A basic CRUD based Web App"
         buttonText="View Project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://github.com/YashGupta018"
         model={{
           type: 'laptop',
           alt: 'Image Hosting Site',
@@ -107,10 +107,10 @@ export const Home = () => {
         title="Diceee (Swift iOS)"
         description="It was basically an App to Roll the Dice in Random Order"
         buttonText="View Project"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://github.com/YashGupta018/Diceee"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Diceee App',
           textures: [
             {
               srcSet: [gamestackTexture, gamestackTextureLarge],
@@ -131,10 +131,10 @@ export const Home = () => {
         title="E-Commerce Website (MERN Stack)"
         description="Design and Developed a E-Commerce Site which is Scalable and Future Proof"
         buttonText="View Project"
-        buttonLink="/projects/slice"
+        buttonLink="https://github.com/YashGupta018"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'E-Commerce Site',
           textures: [
             {
               srcSet: [sliceTexture, sliceTextureLarge],

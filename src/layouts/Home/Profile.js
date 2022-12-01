@@ -1,5 +1,5 @@
-import profileImgLarge from 'assets/profile.png';
-import profileImg from 'assets/profile.png';
+import profileImgLarge from 'assets/profileee.jpg';
+import profileImg from 'assets/profileee.jpg';
 import { Button } from 'components/Button';
 import { DecoderText } from 'components/DecoderText';
 import { Divider } from 'components/Divider';

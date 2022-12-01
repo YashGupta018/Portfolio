@@ -205,11 +205,11 @@ export const Uses = () => {
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Keyboard</TableHeadCell>
-                    <TableCell>Logitech MX Keys</TableCell>
+                    <TableCell>Logitech G213 Prodigy</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Mouse</TableHeadCell>
-                    <TableCell>Logitech G213 Prodigy</TableCell>
+                    <TableCell>Logitech G304</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Laptop</TableHeadCell>
