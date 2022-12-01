@@ -19,7 +19,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am Yash, currently I live in India, I'm a Software Engineer, Web Developer & A
+      I am Yash, currently I live in India, I am a Software Engineer, Web Developer & A
       Passionate Ui/Ux Designer. I have just over a year of experience as a software
       engineer. In my short time there, I have already Contributed to few Projects.
     </Text>
