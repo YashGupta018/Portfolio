@@ -1,8 +1,8 @@
 # My portfolio Website
 
-[![Site preview](https://raw.githubusercontent.com/YashGupta018/GitHub/main/portfolio-1.png)](https://yashgupta-resume.netlify.app)
+[![Site preview](https://raw.githubusercontent.com/YashGupta018/GitHub/main/portfolio-2.png)](https://yashgupta-resume.netlify.app)
 
-My design portfolio to showcase a few projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+My Portfolio Website to showcase my projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://yashgupta-resume.netlify.app).
 
 ## Install & run
 
@@ -18,12 +18,6 @@ Once it's done start up a local server with:
 npm run dev
 ```
 
-To view the components storybook:
-
-```bash
-npm run storybook
-```
-
 To create a production build:
 
 ```bash
@@ -32,7 +26,11 @@ npm run build
 
 ## Deployment
 
-I've set up the site using AWS for hosting and serverless functions. You'll need an AWS account and the AWS CLI installed in order to deploy.
+I've set up the site using Netlify Hosting Setvies. To host this site, I just uploded the Final Build Image Folder in the Netlify Deployment Page.
+
+<!--
+
+This is to use the contact form using AWS Api Service
 
 Deploy the site to s3:
 
@@ -66,6 +64,8 @@ I do not give permission to present any of my projects as your own (this is bein
 
 <details>
   <summary>How do I get the contact form to work?</summary>
-  
+
   It's set up using a serverless function with AWS Lambda. You'll need to set up an AWS account and deploy the function. [Refer to this issue for more details](https://github.com/HamishMW/portfolio/issues/21#issuecomment-958727113).
 </details>
+
+-->
